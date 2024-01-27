@@ -4,6 +4,7 @@ import Link from './Link'
 import { type SelectedPage } from '@/shared/types'
 import useMediaQuery from '@/hooks/useMediaQuery'
 import { useState } from 'react'
+import ActionButton from '@/shared/ActionButton'
 
 interface Props {
   selectedPage: SelectedPage
@@ -68,7 +69,11 @@ function Navbar ({
                     className={`${flexBetween} gap-8`}
                   >
                     <p>Sign in</p>
-                    <button>Become a Member</button>
+                    <ActionButton
+                      setSelectedPage={setSelectedPage}
+                    >
+                      Become a Member
+                    </ActionButton>
                   </div>
                 </div>
                 )
