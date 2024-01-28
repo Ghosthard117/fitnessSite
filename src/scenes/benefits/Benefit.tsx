@@ -39,7 +39,7 @@ const Benefit = ({
       <p className='my-3'>{description}</p>
 
       <AnchorLink
-        className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+        className='text-sm font-bold text-primary-500 underline hover:text-secondary-500'
         onClick={() => { setSelectedPage(SelectedPage.ContactUs) }}
         href={`#${SelectedPage.ContactUs}`}
       >
