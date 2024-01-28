@@ -42,7 +42,7 @@ interface Props {
   setSelectedPage: (value: SelectedPage) => void
 }
 
-const Benefits = ({ setSelectedPage }: Props) => {
+function Benefits ({ setSelectedPage }: Props) {
   return (
     <section
       id='benefits'
