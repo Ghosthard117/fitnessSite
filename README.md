@@ -7,3 +7,4 @@
 - pnpm i -D @types/node
 - pnpm i -D tailwindcss postcss autoprefixer
 - pnpm tailwindcss init 
+- pnpm install react-hook-form
