@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 import Benefit from './Benefit'
-import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.png'
+import BenefitsPageGraphic from '@/assets/BenefitsPageGraphic.webp'
 import ActionButton from '@/shared/ActionButton'
 
 const benefits: BenefitType[] = [

@@ -1,5 +1,5 @@
 import { SelectedPage } from '@/shared/types'
-import ContactUsPageGraphic from '@/assets/ContactUsPageGraphic.png'
+import ContactUsPageGraphic from '@/assets/ContactUsPageGraphic.webp'
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import HText from '@/shared/HText'
